@@ -9,3 +9,9 @@ body {
    max-width: 100%;
    min-width: 320px;
 }
+.wrap {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: o 15px;
+   
+}
