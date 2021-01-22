@@ -1,0 +1,46 @@
+.service {
+   padding-top: 90px;
+   padding-bottom: 90px;
+}
+.service__title {
+   font-size: 48px;
+   font-weight: 500;
+   color: #1f1f1f;
+   line-height: 70px;
+   text-align: center;
+}
+.service__title-red {
+   color: red;
+}
+.service__subtitle {
+   font-size: 16px;
+   font-weight: 300;
+   color: #838383;
+   line-height: 28px;
+   text-align: center;
+}
+.service__block {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 60px;
+}
+.service__item {
+   flex-basis: 30%;
+   box-sizing: border-box;
+   text-align: center;
+   margin-bottom: 60px;
+   padding: 15px;
+}
+.service__item h3 {
+   font-size: 36px;
+   font-weight: 500;
+   color: #1f1f1f;
+   line-height: 72px;
+}
+.service__item p {
+   font-size: 16px;
+   font-weight: 300;
+   color: #838383;
+   line-height: 28px;
+}
