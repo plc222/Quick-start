@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Быстрый старт в верстке</title>
 	 <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -16,13 +18,15 @@
 						<div class="logo">
 							<a href="#"><img src="./img/logo.png" alt="Логотип компании" title="Kallyas"></a>
 						</div>
-						<nav class="header__menu">
-							<ul>
-								<li><a class = "menu__link" href="#">Главная</a></li>
-								<li><a class = "menu__link" href="#">Услуги</a></li>
-								<li><a class = "menu__link" href="#">О нас</a></li>
-								<li><a class = "menu__link" href="#">Контакты</a></li>
-							</ul>
+						<nav class="header__menu" id="myTopnav">
+							
+								<a class = "menu__link" href="#">Главная</a>
+								<a class = "menu__link" href="#">Услуги</a>
+								<a class = "menu__link" href="#">О нас</a>
+								<a class = "menu__link" href="#">Контакты</a>
+								<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+									<i class="fa fa-bars" aria-hidden="true"></i></a>
+							
 						</nav>
 					</div>
 					<div class="header__content">
@@ -107,11 +111,13 @@
 							<li><a class = "menu__link" href="#">Услуги</a></li>
 							<li><a class = "menu__link" href="#">О нас</a></li>
 							<li><a class = "menu__link" href="#">Контакты</a></li>
+							
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</footer>
 	</div>
+	<script src="./js/main.js"></script>
 </body>
 </html>
