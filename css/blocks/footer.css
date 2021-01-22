@@ -21,11 +21,46 @@ footer {
    text-decoration: none;
    font-size: 16px;  
    font-weight: 500;
-   line-height: 100px;
+   line-height: 100%;
    color: #fff;
 }
 .footer__menu li a:hover {
    color: #fb414e;
    text-decoration: underline;
   
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px){
+   footer {
+   padding: 30px 15px;
+   }
+}
+
+
+
+/* 576px - 768px */
+@media screen and (max-width: 768px){
+   .footer__top {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+     
+   
+   }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px){
+   .footer__menu li {
+      margin-left: 20px;
+     
+   }
+   .footer__menu li a {
+      text-decoration: none;
+      font-size: 14px;  
+   }
 }
